@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+  }
+    h1{
+      font-family: 'Ubuntu', sans-serif;
+    }
+    h2{
+      font-family: 'Ubuntu', sans-serif;
+    }
+    
+    body{
+     
+     background-color: #bbbaba!important;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+   
+  
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #f4bd00;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #f4bd00;
+  color: black;
+}
+
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.logo{
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+  .cont{
+      display: flex;
+      padding: 40px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      margin-top: 20px;
+      top: 48%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .login{
+      
+      background-color: white;
+      border-radius: 30px 0px 0px 30px;
+      box-shadow: 0 0 20px 0 rgba(0.3,0,0,0.3);
+    }
+    .signup{
+     
+      background-color: #212529;
+      border-radius: 0px 30px 30px 0px;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    
+    }
+    .box1{
+      padding: 40px;
+    }
+    .box2{
+      padding: 40px;
+    }
+    .t1{
+      margin-top: 30px;
+      font-size: 2rem;
+    }
+    .t2{
+      margin-top: 30px;
+      font-size: 2rem;
+      color: #fff;
+    }
+    .f1{
+      margin-top: 2px;
+    }
+    a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 15px 0;
+    }
+    .social-container {
+        margin-top: 100px;
+    }
+    span {
+        font-size: 12px;
+    }
+    strong{
+      font-size: 30px;
+    }
+    .social-container a {
+        border: 1px solid #DDDDDD;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .inputs{
+      height: 40px;
+      padding: 20px;
+      width: 320px;
+      border-radius: 4px;
+     margin-top: 20px;
+     background-color: #eee;
+     border: none;
+    }
+    
+    .button1 {
+        border-radius: 20px;
+        border: 1px solid #000000;
+        background-color: #000000;
+      margin-bottom:20px ;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+      cursor: pointer;
+    }
+    
+    .button2 {
+        border-radius: 20px;
+        border: 1px solid #000000;
+      color: #000000;
+        background-color: white;
+     margin-top:20px ;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+      cursor: pointer;
+    }
+    .remember{
+      margin-top: 15px;
+    }
+  
+   .form-control{
+     width: 320px!important;
+     position: relative;
+   }  
